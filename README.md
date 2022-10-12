@@ -1,2 +1,2 @@
 # test-frontEnd
-test Application to test the workflow
+test Application to test the workflow and this is the front end app
