@@ -1,0 +1,14 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Run Web App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Web App
+        run: |
+          echo "Build Web App"
+          sleep 10s
