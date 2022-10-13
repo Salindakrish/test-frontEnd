@@ -17,7 +17,7 @@ jobs:
           owner: Salindakrish
           repo: test-keycloak
           github_token: ${{ secrets.G_ACCESS_TOKEN }}
-          workflow_file_name: main.yml
+          workflow_file_name: test.yml
       - name: Deploy Web App
         run: |
           echo "Deploy Web App"
